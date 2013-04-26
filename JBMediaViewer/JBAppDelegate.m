@@ -7,6 +7,7 @@
 //
 
 #import "JBAppDelegate.h"
+#import "JBNormalViewController.h"
 
 @implementation JBAppDelegate
 
@@ -14,7 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    [self.window setRootViewController:[[JBNormalViewController alloc] initWithNibName:@"JBNormalViewController" bundle:nil]];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

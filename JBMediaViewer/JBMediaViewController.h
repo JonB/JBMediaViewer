@@ -10,4 +10,6 @@
 
 @interface JBMediaViewController : UIViewController
 
+- (id)initWithBackgroundImage:(UIImage *)backgroundImage andMediaImage:(UIImage *)image;
+
 @end

@@ -16,6 +16,11 @@
 		AB7FF2DF172A539400F745AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7FF2DE172A539400F745AE /* Default.png */; };
 		AB7FF2E1172A539400F745AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7FF2E0172A539400F745AE /* Default@2x.png */; };
 		AB7FF2E3172A539400F745AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7FF2E2172A539400F745AE /* Default-568h@2x.png */; };
+		AB7FF2EC172A541E00F745AE /* JBNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7FF2EA172A541E00F745AE /* JBNormalViewController.m */; };
+		AB7FF2ED172A541E00F745AE /* JBNormalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7FF2EB172A541E00F745AE /* JBNormalViewController.xib */; };
+		AB7FF2EF172A5B2E00F745AE /* 248541.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB7FF2EE172A5B2E00F745AE /* 248541.jpg */; };
+		AB7FF2F2172A61A400F745AE /* JBMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7FF2F1172A61A400F745AE /* JBMediaViewController.m */; };
+		AB7FF2F4172A645600F745AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7FF2F3172A645600F745AE /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,13 @@
 		AB7FF2DE172A539400F745AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AB7FF2E0172A539400F745AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AB7FF2E2172A539400F745AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AB7FF2E9172A541E00F745AE /* JBNormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBNormalViewController.h; path = JBMediaViewer/JBNormalViewController.h; sourceTree = "<group>"; };
+		AB7FF2EA172A541E00F745AE /* JBNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBNormalViewController.m; path = JBMediaViewer/JBNormalViewController.m; sourceTree = "<group>"; };
+		AB7FF2EB172A541E00F745AE /* JBNormalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JBNormalViewController.xib; path = JBMediaViewer/JBNormalViewController.xib; sourceTree = "<group>"; };
+		AB7FF2EE172A5B2E00F745AE /* 248541.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 248541.jpg; sourceTree = "<group>"; };
+		AB7FF2F0172A61A400F745AE /* JBMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBMediaViewController.h; path = JBMediaViewer/JBMediaViewController.h; sourceTree = "<group>"; };
+		AB7FF2F1172A61A400F745AE /* JBMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBMediaViewController.m; path = JBMediaViewer/JBMediaViewController.m; sourceTree = "<group>"; };
+		AB7FF2F3172A645600F745AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7FF2F4172A645600F745AE /* QuartzCore.framework in Frameworks */,
 				AB7FF2CD172A539400F745AE /* UIKit.framework in Frameworks */,
 				AB7FF2CF172A539400F745AE /* Foundation.framework in Frameworks */,
 				AB7FF2D1172A539400F745AE /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +64,11 @@
 		AB7FF2C0172A539400F745AE = {
 			isa = PBXGroup;
 			children = (
+				AB7FF2E9172A541E00F745AE /* JBNormalViewController.h */,
+				AB7FF2EA172A541E00F745AE /* JBNormalViewController.m */,
+				AB7FF2EB172A541E00F745AE /* JBNormalViewController.xib */,
+				AB7FF2F0172A61A400F745AE /* JBMediaViewController.h */,
+				AB7FF2F1172A61A400F745AE /* JBMediaViewController.m */,
 				AB7FF2D2172A539400F745AE /* JBMediaViewer */,
 				AB7FF2CB172A539400F745AE /* Frameworks */,
 				AB7FF2CA172A539400F745AE /* Products */,
@@ -68,6 +86,7 @@
 		AB7FF2CB172A539400F745AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB7FF2F3172A645600F745AE /* QuartzCore.framework */,
 				AB7FF2CC172A539400F745AE /* UIKit.framework */,
 				AB7FF2CE172A539400F745AE /* Foundation.framework */,
 				AB7FF2D0172A539400F745AE /* CoreGraphics.framework */,
@@ -78,6 +97,7 @@
 		AB7FF2D2172A539400F745AE /* JBMediaViewer */ = {
 			isa = PBXGroup;
 			children = (
+				AB7FF2EE172A5B2E00F745AE /* 248541.jpg */,
 				AB7FF2DB172A539400F745AE /* JBAppDelegate.h */,
 				AB7FF2DC172A539400F745AE /* JBAppDelegate.m */,
 				AB7FF2D3172A539400F745AE /* Supporting Files */,
@@ -155,6 +175,8 @@
 				AB7FF2DF172A539400F745AE /* Default.png in Resources */,
 				AB7FF2E1172A539400F745AE /* Default@2x.png in Resources */,
 				AB7FF2E3172A539400F745AE /* Default-568h@2x.png in Resources */,
+				AB7FF2ED172A541E00F745AE /* JBNormalViewController.xib in Resources */,
+				AB7FF2EF172A5B2E00F745AE /* 248541.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +189,8 @@
 			files = (
 				AB7FF2D9172A539400F745AE /* main.m in Sources */,
 				AB7FF2DD172A539400F745AE /* JBAppDelegate.m in Sources */,
+				AB7FF2EC172A541E00F745AE /* JBNormalViewController.m in Sources */,
+				AB7FF2F2172A61A400F745AE /* JBMediaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
